@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.pr2abd.org/noticias" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.pr2abd.org/noticias">
+
+
+    <xsd:element name="listaNot">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element name="noticia" maxOccurs="unbounded"
+    				minOccurs="0">
+    				<xsd:complexType>
+    					<xsd:sequence>
+    						<xsd:element name="titular"
+    							type="xsd:string">
+    						</xsd:element>
+    						<xsd:element name="entradilla"
+    							type="xsd:string">
+    						</xsd:element>
+    						<xsd:element name="URL" type="xsd:string">
+    						</xsd:element>
+    						<xsd:element name="fechaHora" maxOccurs="1"
+    							minOccurs="0">
+    							<xsd:complexType>
+    								<xsd:sequence>
+    									<xsd:element name="dia"
+    										type="xsd:int">
+    									</xsd:element>
+    									<xsd:element name="mes"
+    										type="xsd:int">
+    									</xsd:element>
+    									<xsd:element name="anio"
+    										type="xsd:int">
+    									</xsd:element>
+    									<xsd:element name="hora"
+    										type="xsd:int">
+    									</xsd:element>
+    									<xsd:element name="min"
+    										type="xsd:int">
+    									</xsd:element>
+    									<xsd:element name="seg"
+    										type="xsd:int">
+    									</xsd:element>
+    								</xsd:sequence>
+    							</xsd:complexType>
+    						</xsd:element>
+    						<xsd:element name="listaEtiq"
+    							maxOccurs="unbounded" minOccurs="0">
+    							<xsd:complexType>
+    								<xsd:sequence>
+    									<xsd:element name="etiqueta"
+    										type="xsd:string" maxOccurs="unbounded" minOccurs="0">
+    									</xsd:element>
+    								</xsd:sequence>
+    							</xsd:complexType>
+    						</xsd:element>
+    						<xsd:element name="listaCom"
+    							maxOccurs="unbounded" minOccurs="0">
+    							<xsd:complexType>
+    								<xsd:sequence>
+    									<xsd:element name="comentario"
+    										maxOccurs="unbounded" minOccurs="0">
+    										<xsd:complexType>
+    											<xsd:sequence>
+    												<xsd:element
+    													name="usuario" maxOccurs="1" minOccurs="1">
+    													<xsd:complexType>
+    														<xsd:sequence>
+    														</xsd:sequence>
+    														<xsd:attribute
+    															name="nick" type="xsd:string">
+    														</xsd:attribute>
+    													</xsd:complexType>
+    												</xsd:element>
+    												<xsd:element
+    													name="txtCom" type="xsd:string" maxOccurs="1"
+    													minOccurs="1">
+    												</xsd:element>
+    												<xsd:element
+    													name="fechaHora" maxOccurs="1" minOccurs="1">
+    													<xsd:complexType>
+    														<xsd:sequence>
+    															<xsd:element
+    																name="dia" type="xsd:int">
+    															</xsd:element>
+    															<xsd:element
+    																name="mes" type="xsd:int">
+    															</xsd:element>
+    															<xsd:element
+    																name="anio" type="xsd:int">
+    															</xsd:element>
+    															<xsd:element
+    																name="hora" type="xsd:int">
+    															</xsd:element>
+    															<xsd:element
+    																name="min" type="xsd:int">
+    															</xsd:element>
+    															<xsd:element
+    																name="seg" type="xsd:int">
+    															</xsd:element>
+    														</xsd:sequence>
+    													</xsd:complexType>
+    												</xsd:element>
+    											</xsd:sequence>
+    										</xsd:complexType>
+    									</xsd:element>
+    								</xsd:sequence>
+    							</xsd:complexType>
+    						</xsd:element>
+    					</xsd:sequence>
+    					<xsd:attribute name="idNoticia"
+    						type="xsd:string">
+    					</xsd:attribute>
+    				</xsd:complexType>
+    			</xsd:element>
+    			<xsd:element name="listaUsuario" maxOccurs="1"
+    				minOccurs="1">
+    				<xsd:complexType>
+    					<xsd:sequence>
+    						<xsd:element name="usuario"
+    							maxOccurs="unbounded" minOccurs="0">
+    							<xsd:complexType>
+    								<xsd:sequence>
+    									<xsd:element name="nombre"
+    										type="xsd:string">
+    									</xsd:element>
+    									<xsd:element name="link"
+    										type="xsd:string">
+    									</xsd:element>
+    								</xsd:sequence>
+    								<xsd:attribute name="nick"
+    									type="xsd:string">
+    								</xsd:attribute>
+    							</xsd:complexType>
+    						</xsd:element>
+    					</xsd:sequence>
+    					
+    				</xsd:complexType>
+    			</xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

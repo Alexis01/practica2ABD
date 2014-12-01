@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listaNot xmlns="http://www.pr2abd.org/noticias"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.pr2abd.org/noticias agregador.xsd">
+	<noticia idNoticia="a1" >
+		<titular>706 personas compiten por cuatro billetes de ida a Marte</titular>
+		<entradilla>
+			706 personas compiten por las cuatro primeras plazas del programa Mars One con elobjetivo de establecer 
+			una colonia humana permanente en Marte, informa Itar-Tass.
+			El primero de los seis grupos de colonizadores, cada uno de cuatro personas, estará formado para 2015 y 
+			entonces comenzará su preparación  para la misión, que se prolongará durante siete años. 
+		</entradilla>
+		<URL>http://actualidad.rt.com/ultima_hora/view/127067-marte-colonia-humana-mision</URL>
+		<fechaHora>
+			<dia>3</dia>
+			<mes>5</mes>
+			<anio>2014</anio>
+			<hora>7</hora>
+			<min>35</min>
+			<seg>00</seg>
+		</fechaHora>
+		<listaEtiq>
+			<etiqueta>Internacional</etiqueta>
+			<etiqueta>Marte</etiqueta>
+			<etiqueta>Ciencia</etiqueta>
+			<etiqueta>NASA</etiqueta>
+		</listaEtiq>
+		<listaCom>
+			<comentario>
+				<usuario nick="AnMa"/>
+				<txtCom>Nos engañaron con la Luna como para llegar a Marte de donde presupuesto ?</txtCom>
+				<fechaHora>
+					<dia>3</dia>
+					<mes>5</mes>
+					<anio>2014</anio>
+					<hora>8</hora>
+					<min>00</min>
+					<seg>15</seg>
+				</fechaHora>
+			</comentario>
+
+			<comentario>
+				<usuario nick="PerG"/>
+				<txtCom>Noticias como esta pretenden desviar el la atención de las cosas que de verdad nos afectan!</txtCom>
+				<fechaHora>
+					<dia>3</dia>
+					<mes>5</mes>
+					<anio>2014</anio>
+					<hora>9</hora>
+					<min>22</min>
+					<seg>56</seg>
+				</fechaHora>
+			</comentario>
+		</listaCom>
+	</noticia>
+	<noticia idNoticia="a2">
+		<titular>Bill Gates deja de ser el primer accionista individual de Microsoft</titular>
+		<entradilla>
+			Bill Gates vendió el miércoles 4,6 millones de acciones de su empresa, Microsoft, y perdió su lugar como primer accionista individual del 
+			grupo informático estadounidense.
+			Steve Ballmer, ex director ejecutivo de la compañía, posee 3,1 millones de acciones más que el fundador de la empresa y se sitúa así como el máximo accionista individual de la misma, según informa la revista 'Forbes'. 				
+		</entradilla>
+		<URL>http://actualidad.rt.com/ultima_hora/view/127061-microsoft-bill-gates-accionista-ballmer</URL>
+		<fechaHora>
+			<dia>3</dia>
+			<mes>5</mes>
+			<anio>2014</anio>
+			<hora>6</hora>
+			<min>17</min>
+			<seg>00</seg>
+		</fechaHora>
+		<listaEtiq>
+			<etiqueta>Internacional</etiqueta>
+			<etiqueta>IT</etiqueta>
+			<etiqueta>Finanzas</etiqueta>
+			<etiqueta>Microsoft</etiqueta>
+		</listaEtiq>
+		<listaCom>
+			<comentario>
+				<usuario nick="PerG"/>
+				<txtCom>Curiosidades que no sorprenden</txtCom>
+				<fechaHora>
+					<dia>3</dia>
+					<mes>5</mes>
+					<anio>2014</anio>
+					<hora>7</hora>
+					<min>07</min>
+					<seg>24</seg>
+				</fechaHora>
+			</comentario>
+			<comentario>
+				<usuario nick="PerG"/>
+				<txtCom>¿Estos eran los de Windows, no ?</txtCom>
+				<fechaHora>
+					<dia>3</dia>
+					<mes>5</mes>
+					<anio>2014</anio>
+					<hora>9</hora>
+					<min>58</min>
+					<seg>33</seg>
+				</fechaHora>
+			</comentario>
+		</listaCom>
+	</noticia>
+	<noticia idNoticia="a3">
+		<titular>Raúl, cerca de New York Cosmos</titular>
+		<entradilla>
+			Según se está haciendo eco la prensa internacional, New York Cosmos podría haber fichado a Raúl, 
+			quien se uniría al equipo neoyorquino este verano. Tal y como adelantó MARCA.com hace unas semanas, 
+			el delantero español es el perfil que buscaba el técnico del equipo estadounidense, Giovanni Savarese.
+		</entradilla>
+		<URL>http://www.marca.com/2014/05/03/futbol/futbol_internacional/estados_unidos/1399136915.html</URL>
+		<fechaHora>
+			<dia>4</dia>
+			<mes>5</mes>
+			<anio>2014</anio>
+			<hora>00</hora>
+			<min>26</min>
+			<seg>00</seg>
+		</fechaHora>
+		<listaEtiq>
+			<etiqueta>Fútbol</etiqueta>
+			<etiqueta>Curiosidades</etiqueta>
+		</listaEtiq>
+		<listaCom>
+			<comentario>
+				<usuario nick="PerG"/>
+				<txtCom>Que juegue mienstras aguante</txtCom>
+				<fechaHora>
+					<dia>4</dia>
+					<mes>5</mes>
+					<anio>2014</anio>
+					<hora>2</hora>
+					<min>02</min>
+					<seg>44</seg>
+				</fechaHora>
+			</comentario>
+			<comentario>
+				<usuario nick="PerG"/>
+				<txtCom>vergüenza que el Madrid le echara de esa manera</txtCom>
+				<fechaHora>
+					<dia>4</dia>
+					<mes>5</mes>
+					<anio>2014</anio>
+					<hora>9</hora>
+					<min>36</min>
+					<seg>11</seg>
+				</fechaHora>
+			</comentario>
+		</listaCom>	
+	</noticia>
+	<noticia idNoticia="a4">
+		<titular>Samsung deberá pagar 119 millones de dólares a Apple por infringir una patente</titular>
+		<entradilla>
+			 Un jurado de California, EE.UU., ha llegado a un veredicto en una batalla legal entre Apple y Samsung, que afirma que la compañía coreana infringió al menos una patente de Apple y ahora deberá pagar 119 millones de dólares, informa 'The Wall Street Journal'.
+			 El jurado, compuesto de cuatro hombres y cuatro mujeres, alcanzó este veredicto el viernes después de 4 días de deliberaciones. Las compañías se acusaban una a otra de infringir tecnologías de teléfonos inteligentes. Apple exigía 2.200 de millones dólares, mientras que Samsung Electronics pedía 6 millones de dólares.
+		</entradilla>
+		<URL>http://actualidad.rt.com/ultima_hora/view/127037-samsung-millones-apple-infringir-patente</URL>
+		<fechaHora>
+			<dia>3</dia>
+			<mes>5</mes>
+			<anio>2014</anio>
+			<hora>00</hora>
+			<min>28</min>
+			<seg>00</seg>
+		</fechaHora>
+		<listaEtiq>
+			<etiqueta>Internacional</etiqueta>
+			<etiqueta>IT</etiqueta>
+			<etiqueta>Finanzas</etiqueta>
+			<etiqueta>Samsung</etiqueta>
+			<etiqueta>Apple</etiqueta>
+		</listaEtiq>
+		<listaCom>
+			<comentario>
+				<usuario nick="PerG"/>
+				<txtCom>El dinero estas compañias no lo tienen por nada</txtCom>
+				<fechaHora>
+					<dia>3</dia>
+					<mes>5</mes>
+					<anio>2014</anio>
+					<hora>15</hora>
+					<min>33</min>
+					<seg>01</seg>
+				</fechaHora>
+			</comentario>
+			<comentario>
+				<usuario nick="PerG"/>
+				<txtCom>Más tenía que haber pedido</txtCom>
+				<fechaHora>
+					<dia>3</dia>
+					<mes>5</mes>
+					<anio>2014</anio>
+					<hora>16</hora>
+					<min>03</min>
+					<seg>52</seg>
+				</fechaHora>
+			</comentario>
+		</listaCom>
+	</noticia>
+	<listaUsuario>
+		<usuario nick="AnMa">
+			<nombre>Antonio Machado</nombre>
+			<link>http://es.wikipedia.org/wiki/Antonio_Machado</link>
+		</usuario>
+		<usuario nick="Ram">
+			<nombre>Ramón Pidal</nombre>
+			<link>http://es.wikipedia.org/wiki/Ram%C3%B3n_Men%C3%A9ndez_Pidal</link>
+		</usuario>
+		<usuario nick="Una">
+			<nombre>Miguel de Unamuno</nombre>
+			<link>http://es.wikipedia.org/wiki/Miguel_de_Unamuno</link>
+		</usuario>
+		<usuario nick="PerG">
+			<nombre>Pérez Galdós</nombre>
+			<link>http://es.wikipedia.org/wiki/Benito_P%C3%A9rez_Gald%C3%B3s</link>
+		</usuario>
+		<usuario nick="VicB">
+			<nombre>Vicente Ibáñez</nombre>
+			<link>http://es.wikipedia.org/wiki/Vicente_Blasco_Ib%C3%A1%C3%B1ez</link>
+		</usuario>
+		<usuario nick="RaM">
+			<nombre>Ramón María</nombre>
+			<link>http://es.wikipedia.org/wiki/Ram%C3%B3n_Mar%C3%ADa_del_Valle-Incl%C3%A1n</link>
+		</usuario>
+	</listaUsuario>
+</listaNot>

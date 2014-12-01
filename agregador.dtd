@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT listaNot (noticia,usuario)+>
+
+<!ELEMENT noticia (titular,entradilla,URL,fechaHora,listaEtiq,listaCom)>
+<!ELEMENT usuario (nombre,link?)>
+
+
+<!ATTLIST noticia idNoticia ID #REQUIRED >
+<!ELEMENT titular (#PCDATA)>
+<!ELEMENT entradilla (#PCDATA)>
+<!ELEMENT URL (#PCDATA)>
+
+<!ELEMENT fechaHora (dia,mes,anio,hora,min,seg)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT min (#PCDATA)>
+<!ELEMENT seg (#PCDATA)>
+
+<!ELEMENT etiqueta (#PCDATA)>
+
+<!ELEMENT comentario (usuario,txtCom,fechaHora)>
+<!ELEMENT txtCom (#PCDATA)>
+
+<ATTLIST usuario nick ID #REQUIRED >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+
+<!ELEMENT listaUsuario (usuario)+>
+<!ELEMENT listaCom (comentario)+>
+<!ELEMENT listaEtiq (etiqueta)+>
